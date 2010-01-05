@@ -75,6 +75,42 @@ a:hover {
   position: relative;
 }
 
+#sidebar h2 {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+}
+
+#sidebar p {
+  margin: 5px 0 8px;
+}
+
+#sidebar ul {
+  margin: 5px 0 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+#sidebar li {
+  color: #777;
+}
+
+#sidebar li:before {
+  content: "\00BB \0020";
+}
+
+.sidebar-block {
+  margin-bottom: 15px;
+}
+
+#sidebar .widget h2 {
+  margin-bottom: 10px;
+}
+
+#toggle-about {
+  font-size: x-small;
+  text-align: right;
+}
+
 #posts {
   padding-top: 10px;
 }

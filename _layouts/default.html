@@ -15,8 +15,18 @@
         {{ content }}
       </div> <!-- #content -->
       <div id="sidebar">
-        About me
+        {% include aboutme.html %}
+        {% include partigi_widget.html %}
+        {% include twitter_widget.html %}
       </div>
     </div> <!-- #wrapper -->
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $('#toggle-about a').click(function(){
+          $('#about-es, #about-en, #toggle-about-en, #toggle-about-es').toggle();
+        });
+      });
+    </script>
   </body>
 </html>
