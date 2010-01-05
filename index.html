@@ -1,0 +1,18 @@
+---
+layout: default
+title: BatU's Stack
+---
+
+<div id="posts">
+  {% for post in paginator.posts %}
+    <div class="post">
+      <h2 class="title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+      <div class="body">
+        {{ post.content }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
