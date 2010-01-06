@@ -111,10 +111,24 @@ a:hover {
   text-align: right;
 }
 
+#footer {
+  width: 900px;
+  clear: both;
+  border-top: 1px dashed #CCCCCC;
+}
+
+#footer p {
+  padding: 20px 0;
+  text-align: center;
+}
+
 #posts {
   padding-top: 10px;
 }
 
+.post {
+  margin-bottom: 30px;
+}
 
 .post h2 {
   margin: 10px 0 0;
