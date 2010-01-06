@@ -2,6 +2,8 @@
 wordpress_id: 81
 layout: post
 title: Trivial friendly URL routing for Ruby on Rails
+description: How to build a friendly url system with Ruby on Rails
+keywords: ruby rails url friendly cms
 wordpress_url: http://blog.inbatu.com/?p=81
 ---
 Back to the times I was programming in PHP (it hasn't been that long but it feels like an eternity has passed), I worked in a company own made CMS. One of my biggest headaches was tuning and reimplementing the friendly URL generator.

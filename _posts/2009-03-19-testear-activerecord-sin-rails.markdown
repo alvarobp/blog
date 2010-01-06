@@ -2,6 +2,8 @@
 wordpress_id: 79
 layout: post
 title: Testear ActiveRecord sin Rails
+description: Testear ActiveRecord sin Rails
+keywords: activerecord,active,record,rails,rubyonrails,ruby,shoulda,testing,test
 wordpress_url: http://blog.inbatu.com/?p=79
 ---
 Hace unos días andaba algo ocioso y me puse a probar como escribir un plugin/gema para rails. Este plugin resultó en una muy sencilla extensión para modelos ActiveRecord, que simplemente mantiene una copia de los valores inversos de created_at y updated_at como enteros, con lo que podemos hacer consultas ordenando por estos campos de forma descendente.
