@@ -1,0 +1,39 @@
+<script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $('#toggle-about a').click(function(){
+      $('#about-es, #about-en, #toggle-about-en, #toggle-about-es').toggle();
+    });
+    
+    new TWTR.Widget({
+      id: 'twitter-widget-content',
+      version: 2,
+      type: 'profile',
+      rpp: 5,
+      interval: 6000,
+      width: 'auto',
+      height: 300,
+      theme: {
+        shell: {
+          background: '#ccecef',
+          color: '#333333'
+        },
+        tweets: {
+          background: '#ffffff',
+          color: '#333333',
+          links: '#0084b4'
+        }
+      },
+      features: {
+        scrollbar: true,
+        loop: false,
+        live: true,
+        hashtags: true,
+        timestamp: true,
+        avatars: false,
+        behavior: 'all'
+      }
+    }).render().setUser('batu').start();
+  });
+</script>
