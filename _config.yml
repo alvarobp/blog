@@ -1,3 +1,5 @@
 permalink: pretty
 pygments: true
 paginate: 5
+host: blog.inbatu.com
+author_email: alvarobp@gmail.com
