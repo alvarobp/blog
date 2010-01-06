@@ -1,0 +1,9 @@
+--- 
+wordpress_id: 15
+layout: post
+title: De vuelta
+wordpress_url: http://localhost/blog/?p=15
+---
+Bueno, ya llegó septiembre. Después de todo el verano sin apenas acercarme a los pc's, ahora vuelta a la carga. De aquí a dos semanas empezaré segundo... este año tendre que meter caña. Y nada a ver si empiezo a poner más cosillas por aquí, supongo que proximámente pondré cosillas de java (como me toca estudiarlo este año), a ver si continúo con Qt que lo dejé bastante parado y claro ahora mismo ya casi no me acuerdo de nada. :P
+
+Salu2 (al Maca porque no se si lo leerá alguien más)

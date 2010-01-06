@@ -1,0 +1,8 @@
+--- 
+wordpress_id: 46
+layout: post
+title: Primer post
+wordpress_url: http://blog.inbatu.com/2007/01/01/%c2%a1feliz-2007/
+---
+No creo que nadie esté leyendo esto en los mismos instantes de publicar esta entrada, estareis todos emborrachandoos y deseando poder escaquearos de casa para salir a esparramarla un poquillo. Bueno la verdad, no penseis que lo primero de todo que haré en el 2007 será sentarme a postear, esto está programado. En fin,
+<strong><b>Feliz año 2007</b></strong>

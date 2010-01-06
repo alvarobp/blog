@@ -1,0 +1,11 @@
+--- 
+wordpress_id: 58
+layout: post
+title: Naudo
+wordpress_url: http://blog.inbatu.com/2007/01/23/58/
+---
+<b>Samba pa ti (Santana)</b>
+<!-- <object style="height: 344px; width: 425px"><param name="movie" value="http://www.youtube.com/v/8FBbzL3G8Vw"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/8FBbzL3G8Vw" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="425" height="344"></object> -->
+<b>Every little thing she does is magic (Police)</b>
+<!-- <object style="height: 344px; width: 425px"><param name="movie" value="http://www.youtube.com/v/Sk46ugkD-Ww"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/Sk46ugkD-Ww" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="425" height="344"></object> -->
+<p>Impresionantes las versiones de este guitarrista. Les da un toque muy personal. En youtube hay <a href="http://www.youtube.com/results?search_query=Naudo">un buen puñado de videos</a> de él.</p>
