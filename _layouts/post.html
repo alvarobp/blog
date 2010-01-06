@@ -16,9 +16,8 @@
       <div id="content" class="left-column">
         <div class="post">
           <h2 class="title">
-            <a href="{{ page.url }}">{{ page.title }}</a>
+            <a href="{{ page.url }}">{{ page.title }}</a> <small>{{ page.date | date: "%Y-%m-%d" }}</small> 
           </h2>
-          <small>{{ page.date | date: "%Y-%m-%d" }}</small>
           <div class="body">
             {{ content }}
           </div>
