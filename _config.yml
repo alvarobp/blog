@@ -1,5 +1,5 @@
 permalink: pretty
-pygments: true
 paginate: 5
+markdown: rdiscount
 host: blog.inbatu.com
 author_email: alvarobp@gmail.com
