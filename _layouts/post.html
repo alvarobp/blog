@@ -12,6 +12,7 @@
     <div id="wrapper">
       <div id="header">
         <h1><a href="/">BatU's Stack</a></h1>
+        {% include search.html %}
       </div>
       <div id="content" class="left-column">
         <div class="post">
@@ -24,6 +25,7 @@
         </div>
       </div> <!-- #content -->
       <div id="sidebar">
+        {% include rss_sidebar.html %}
         {% include aboutme.html %}
         {% include partigi_widget.html %}
         {% include twitter_widget.html %}
