@@ -24,6 +24,12 @@
             {{ content }}
           </div>
         </div>
+        {% if page.previous || page.next %}
+        <div id="paginator">
+          {% if page.previous %}<div class="left"><a href="{{ page.previous.url }}">&laquo; {{ page.previous.title | truncate: 30 }}</a></div>{% endif %}
+          {% if page.next %}<div class="right"><a href="{{ page.next.url }}">{{ page.next.title | truncate: 30 }} &raquo;</a></div>{% endif %}
+        </div>
+        {% endif %}
       </div> <!-- #content -->
       <div id="sidebar">
         {% include rss_sidebar.html %}

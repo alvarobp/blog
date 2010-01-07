@@ -18,8 +18,9 @@ description: alvaro bautista blog
   {% endfor %}
 </div>
 
-{% if paginator.next_page %}
+{% if paginator.next_page or paginator.previous_page %}
 <div id="paginator">
-  <a href="/page{{ paginator.next_page }}">&laquo; Older posts</a>
+  {% if paginator.next_page %}<div class="left"><a href="/page{{ paginator.next_page }}">&laquo; Older posts</a></div>{% endif %}
+  {% if paginator.previous_page %}<div class="right"><a href="/{% if paginator.previous_page > 1 %}page{{ paginator.previous_page }}{% endif %}">Newer posts &raquo;</a></div>{% endif %}
 </div>
 {% endif %}
