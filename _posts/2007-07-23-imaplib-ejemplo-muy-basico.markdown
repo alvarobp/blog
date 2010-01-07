@@ -8,7 +8,7 @@ Estoy de vuelta con python, que desde antes de exámenes no había tocado nada. 
 
 Dejo aquí un sencillo ejemplo que muestra todos los mensajes de un buzón IMAP.
 
-{% highlight python %}
+<pre name="code" class="python">
 #!/usr/bin/python
 
 import imaplib, getpass
@@ -34,4 +34,4 @@ if __name__ == '__main__':
 		
 	mail.close()
 	mail.logout()
-{% endhighlight %}
+</pre>

@@ -10,11 +10,11 @@ Empezando con el <a href="http://www.gtkmm.org/docs/gtkmm-2.4/docs/tutorial/html
 
 Por ejemplo, añadiendo el include <em> &lt;gtkmm .h&gt;</em>  y mediante el siguiente código creamos una ventana principal vacía y la mostramos:
 
-<code>
+<pre name="code" class="cpp">
 Gtk::Main kit(argc, argv[]);
 Gtk::Window w;
 Gtk::Main::run(w);
-</code>
+</pre>
 
 Y bueno, el hola mundo, que simplemente consta de un botón que muestra una cadena en la consola, ya es un pelín más complicado.
 

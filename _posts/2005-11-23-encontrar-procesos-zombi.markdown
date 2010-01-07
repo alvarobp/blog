@@ -13,7 +13,7 @@ ps -el | grep 'Z'
 Con el comando <tt>ps -el</tt> se puede obtener una salida en la que la segunda columna indica el estado del proceso. Existen varios estados:
 
 <pre>
-  S : sleeping
+S : sleeping
 R : running
 D : waiting
 T : gestopt (suspended)

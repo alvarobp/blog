@@ -8,7 +8,7 @@ En la versión 2.3 de Python se añadió el módulo <a href="http://docs.python.
 
 Pondré un ejemplo:
 
-{% highlight python %}
+<pre name="code" class="python">
 from optparse import OptionParser
 
 if __name__ == '__main__':
@@ -35,22 +35,22 @@ if __name__ == '__main__':
         print "\nArguments:"
         for x in args:
             print "  ",x
-{% endhighlight %}
+</pre>
 Ahora veamos algunos resultados según los argumentos que pasemos (en negrita el comando ejecutado):
 
-{% highlight bash %}
+<pre name="code" class="bash">
 <b>$ python option.py</b>
 
 Extra info disabled
-{% endhighlight %}
+</pre>
 
-{% highlight python %}
+<pre name="code" class="python">
 <b>$ python option.py -v</b>
 
 Extra info enabled
-{% endhighlight %}
+</pre>
 
-{% highlight python %}
+<pre name="code" class="python">
 <b>$ python option.py -h</b>
 
 usage: option.py [options] arg1 arg2
@@ -62,9 +62,9 @@ options:
   -q, --quiet           hides detailed information
   -f FILENAME, --filename=FILENAME
                         name of the file to load
-{% endhighlight %}
+</pre>
 
-{% highlight python %}
+<pre name="code" class="python">
 <b>$ python option.py -f fichero.txt "First" "Second" "Last argument"</b>
 
 Extra info disabled
@@ -74,7 +74,7 @@ Arguments:
    First
    Second
    Last argument
-{% endhighlight %}
+</pre>
 
 Fijaos que distingue las opciones de los argumentos, como se puede ver en el último ejemplo.
 

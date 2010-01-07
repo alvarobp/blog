@@ -16,14 +16,14 @@ Donde 192.168.0.0/24 indica que redireccionaremos a toda la subred 192.168.0.0 (
 <tt>echo "1" &gt; /proc/sys/net/ipv4/ip_forward</tt></p>
 <p>
 Con esto ya tenemos a nuestra máquina haciendo funciones de pasarela. Pero en este punto si reiniciamos el ordenador se perderá la configuración y tendremos que volver a ejecutar los dos comandos anteriores. Para solucionar esto los metemos en un script, algo así como:</p>
-{% highlight bash %}
+<pre name="code" class="bash">
 #! /bin/sh
 echo -n "Iniciando Gateway... "
 iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE
 
 echo "1" &gt; /proc/sys/net/ipv4/ip_forward
 echo "Iniciado."
-{% endhighlight %}
+</pre>
 <p>Guardamos este script como /etc/init.d/gateway, por ejemplo, le damos permisos de ejecución y creamos enlaces simbólicos a él para los runlevels que nos interesen, p. ej para el 2, como sigue:</p>
 <p><tt>ln -s /etc/init.d/gateway /etc/rc2.d/S99gateway</tt></p>
 <p>Solo resta configurar los clientes, utilizando como puerta de enlace la ip de nuestro servidor (p. ej. 192.168.0.1 en caso de que hayamos configurado esa ip en la segunda tarjeta de red de nuestro servidor) y para las DNS tenemos dos posibilidades:</p>

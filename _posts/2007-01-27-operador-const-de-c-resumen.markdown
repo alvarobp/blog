@@ -17,31 +17,31 @@ Como regla general const afecta al elemento que está inmediatamente a su izquie
 
 <h3>Valores constantes de retorno de función</h3>
 
-{% highlight cpp %}
+<pre name="code" class="cpp">
 const char * Funcion()
 { return "Un texto"; }
 
 Funcion()[1] = 'a'; // Error
-{% endhighlight %}
+</pre>
 
 La variable devuelta no se puede modificar pues es constante.
 
 <h3>Parámetros constantes</h3>
 
-{% highlight python %}
+<pre name="code" class="python">
 void mostrarPila(const Pila &p);
-{% endhighlight %}
+</pre>
 
 Como mostrarPila no debe modificar la pila pasamos el objeto pila a mostrar por referencia y constante. De esta manera no podremos modificar el objeto p, ni acceder a métodos de este que no se hayan declarado como const.
 
 <h3>Métodos constantes</h3>
 
-{% highlight python %}
+<pre name="code" class="python">
 class Tipo {
 ...
   void imprime() const;
 ...
 }
-{% endhighlight %}
+</pre>
 
 Evita que el método imprime pueda modificar los miembros del objeto.

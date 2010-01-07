@@ -10,7 +10,7 @@ Modificando un par de ficheros de configuración o tres (un par de líneas en ca
 
 El fichero del controlador (<tt>controllers/blog.php</tt>):
 
-{% highlight php %}
+<pre name="code" class="php">
 
 class Blog extends Controller {
   function Blog() {
@@ -28,43 +28,43 @@ class Blog extends Controller {
     $this->load->view('blog_view', $data);
   }
 }
-{% endhighlight %}
+</pre>
 
 El fichero de la vista correspondiente (<tt>views/blog_view.php</tt>):
 
-{% highlight html %}
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-type" content="text/html;
-    charset=utf-8">
-  <title>Blog</title>
+<pre name="code" class="html">
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+  &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;Content-type&quot; content=&quot;text/html;
+    charset=utf-8&quot;&gt;
+  &lt;title&gt;Blog&lt;/title&gt;
 
-  <link rel="stylesheet" href="/bblog/css/style.css" 
-    type="text/css" media="screen"
-    title="no title" charset="utf-8">
-</head>
-<body>
-  <div id="box">
-    <div id="header">
-      <h1><?=$title?></h1>
-      <h2><?=$heading?></h2>
-    </div>
-    <div id="posts">
-      <?php foreach($query->result() as $post): ?>
-        <div class="post">
-          <h3><?=$post->post_title?></h3>
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;/bblog/css/style.css&quot; 
+    type=&quot;text/css&quot; media=&quot;screen&quot;
+    title=&quot;no title&quot; charset=&quot;utf-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;box&quot;&gt;
+    &lt;div id=&quot;header&quot;&gt;
+      &lt;h1&gt;&lt;?=$title?&gt;&lt;/h1&gt;
+      &lt;h2&gt;&lt;?=$heading?&gt;&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;posts&quot;&gt;
+      &lt;?php foreach($query-&gt;result() as $post): ?&gt;
+        &lt;div class=&quot;post&quot;&gt;
+          &lt;h3&gt;&lt;?=$post-&gt;post_title?&gt;&lt;/h3&gt;
 
-          <div class="post_content">
-            <?=$post->post_content?>
-          </div>
-        </div>
-      <?php endforeach; ?>
-    </div>
-  </div>
-</body>
-</html>
-{% endhighlight %}
+          &lt;div class=&quot;post_content&quot;&gt;
+            &lt;?=$post-&gt;post_content?&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;?php endforeach; ?&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
 <strike>Dejo aquí la URL del ejemplo: <a href="http://testing.inbatu.com/bblog/index.php/blog">http://testing.inbatu.com/bblog/index.php/blog</a></strike>

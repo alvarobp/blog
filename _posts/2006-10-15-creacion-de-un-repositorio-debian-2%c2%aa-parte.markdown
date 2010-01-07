@@ -22,13 +22,13 @@ Más adelante necesitaremos importar la clave pública para usar el repositorio,
 
 Ahora que ya poseemos una clave para firmar el repositorio tenemos que firmar los <tt>Release</tt> de cada uno de los directorios:
 
-{% highlight bash %}
+<pre name="code" class="bash">
 cd dists/sarge
 gpg -bao Release.gpg Release
 
 cd main/binary-i386
 gpg -bao Release.gpg Release
-{% endhighlight %}
+</pre>
 
 Esto nos pide el passphrase que introdujimos al generar la clave, y nos genera un fichero <tt>Release.gpg</tt>. Pues bien una vez hemos firmado todos los ficheros <tt>Release</tt> ya tenemos firmado el repositorio.
 

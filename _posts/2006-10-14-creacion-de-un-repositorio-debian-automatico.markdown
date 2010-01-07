@@ -104,17 +104,17 @@ Default {
 
 Una vez tenemos los ficheros de configuración adecuados a nuestras necesidades hemos de ejecutar un par de comandos, los cuales podemos meter en un script llamado por ejemplo <tt>update-archive.sh</tt>:
 
-{% highlight bash %}
+<pre name="code" class="bash">
 #!/bin/sh
 apt-ftparchive generate apt-ftparchive.conf
 apt-ftparchive -c apt-dapper-release.conf release dists/dapper/ 
                >dists/dapper/Release
-{% endhighlight %}
+</pre>
 
 <h3>Actualizando el repositorio</h3>
 Una vez hemos puesto los paquetes dentro de los directorios correspondientes de su sección ejecutamos el script <tt>update-archive.sh</tt>, obteniendo una salida como la siguiente:
 
-{% highlight bash %}
+<pre name="code" class="bash">
 $ ./update-archive.sh
  dists/sarge/main/binary-i386: 21 files 42.7MB 2s
  dists/sarge/contrib/binary-i386: 0 files 0B 0s
@@ -127,7 +127,7 @@ $ ./update-archive.sh
  dists/sarge/non-free/source/: 0 pkgs in 0s
 Done Packages, Starting contents.
 Done. 314MB in 50 archives. Took 7s
-{% endhighlight %}
+</pre>
 
 <h3>Usando el repositorio</h3>
 Después de los pasos anteriores ya podemos utilizar el repositorio modificando el fichero <tt>/etc/apt/sources.list</tt>:

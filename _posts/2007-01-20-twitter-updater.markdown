@@ -12,5 +12,5 @@ Aquí dejo el script:
 
 <a href="/drawer/2007/01/twupdater_v02.tar.gz">twupdater_v02.tar.gz</a>
 
-<b>Actualización:</b> El script ahora pide usuario y contraseña si no se configuran.
-<b>Ultima actualizacion:</b> Ahora además comprueba el usuario y contraseña antes de enviar el estado.
+<p><b>Actualización:</b> El script ahora pide usuario y contraseña si no se configuran.</p>
+<p><b>Ultima actualizacion:</b> Ahora además comprueba el usuario y contraseña antes de enviar el estado.</p>
