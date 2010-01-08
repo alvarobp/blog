@@ -5,14 +5,14 @@ layout: nil
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://{{ site.host }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   {% for post in site.posts %}
   <url>
     <loc>http://{{ site.host }}/{{ post.url }}/</loc>
-    <lastmod>{{ site.time }}</lastmod>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
