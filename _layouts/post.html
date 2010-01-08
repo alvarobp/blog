@@ -24,6 +24,7 @@
             {{ content }}
           </div>
         </div>
+        <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/batusstack/embed.js"></script><noscript><a href="http://disqus.com/forums/batusstack/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
         {% if page.previous || page.next %}
         <div id="paginator">
           {% if page.previous %}<div class="left"><a href="{{ page.previous.url }}">&laquo; {{ page.previous.title | truncate: 30 }}</a></div>{% endif %}
@@ -40,5 +41,19 @@
       {% include footer.html %}
     </div> <!-- #wrapper -->
     {% include common_javascript.html %}
+    <script type="text/javascript">
+      //<![CDATA[
+      (function() {
+        var links = document.getElementsByTagName('a');
+        var query = '?';
+        for(var i = 0; i < links.length; i++) {
+          if(links[i].href.indexOf('#disqus_thread') >= 0) {
+            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+          }
+        }
+        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/batusstack/get_num_replies.js' + query + '"></' + 'script>');
+      })();
+      //]]>
+    </script>
   </body>
 </html>
