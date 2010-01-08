@@ -1,4 +1,5 @@
 <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.lightbox.js"></script>
 <script class="javascript" src="/javascripts/syntax_highlighter/shCore.js"></script>
 <script class="javascript" src="/javascripts/syntax_highlighter/shBrushCSharp.js"></script>
 <script class="javascript" src="/javascripts/syntax_highlighter/shBrushCpp.js"></script>
@@ -22,6 +23,8 @@
     $('#toggle-about a').click(function(){
       $('#about-es, #about-en, #toggle-about-en, #toggle-about-es').toggle();
     });
+    
+    $('.gallery a').lightBox();
     
     new TWTR.Widget({
       id: 'twitter-widget-content',

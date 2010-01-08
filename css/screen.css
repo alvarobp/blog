@@ -178,3 +178,6 @@ img {
   padding: 20px 0;
   text-align: center;
 }
+
+.gallery ul { list-style: none; margin: 0; padding: 10px 0px 10px 10px; }
+.gallery li { display: inline; margin-right: 5px; }

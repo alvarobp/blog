@@ -9,7 +9,10 @@ El nivel de detalles es impresionante, lleva la pua, una Gibson Les Paul, con la
 
 Dejo unas fotillos, aunque no se aprecian muy bien los detalles.
 
-<table>
-<tr><td><a href="/drawer/2006/12/100_0362_2.jpg"><img src="/drawer/2006/12/100_0362_2.miniatura.jpg" alt="Slash 1" /></a></td>
-<td><a href="/drawer/2006/12/100_0368_2.jpg"><img src="/drawer/2006/12/100_0368_2.miniatura.jpg" alt="Slash 2" /></a></td>
-<td><a href="/drawer/2006/12/100_0369_2.jpg"><img src="/drawer/2006/12/100_0369_2.miniatura.jpg" alt="Slash 3" /></a></td></tr></table>
+<div class="gallery">
+  <ul>
+    <li><a href="/drawer/2006/12/100_0362_2.jpg"><img src="/drawer/2006/12/100_0362_2.miniatura.jpg" alt="Slash 1" /></a></li>
+    <li><a href="/drawer/2006/12/100_0368_2.jpg"><img src="/drawer/2006/12/100_0368_2.miniatura.jpg" alt="Slash 2" /></a></li>
+    <li><a href="/drawer/2006/12/100_0369_2.jpg"><img src="/drawer/2006/12/100_0369_2.miniatura.jpg" alt="Slash 3" /></a></li>
+  </ul>
+</div>

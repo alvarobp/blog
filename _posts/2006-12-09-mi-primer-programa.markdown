@@ -22,5 +22,12 @@ Para la primera versión que he considerado "estable" (más bien funcional):
 
 Bueno y unas capturas de pantalla (un poco feas):
 
-<table><tr><td><a href="/drawer/2006/12/almacen-05_principal.png"><img src="/drawer/2006/12/almacen-05_principal.miniatura.png" title="{almacen} Ventana principal" alt="vprincipal" /></a></td><td><a href="/drawer/2006/12/almacen-05_entrada.png"><img title="{almacen} Entrada" id="image40" src="/drawer/2006/12/almacen-05_entrada.miniatura.png" alt="Almacen 0.5 - Ventana entrada de producto" /></a></td><td><a href="/drawer/2006/12/almacen-05_nuevo.png"><img title="{almacen} Nuevo" id="image39" src="/drawer/2006/12/almacen-05_nuevo.miniatura.png" alt="Almacen 0.5 - Ventana nuevo producto" /></a></td></tr></table>
+<div class="gallery">
+  <ul>
+    <li><a href="/drawer/2006/12/almacen-05_principal.png"><img src="/drawer/2006/12/almacen-05_principal.miniatura.png" alt="vprincipal" /></a></li>
+    <li><a href="/drawer/2006/12/almacen-05_entrada.png"><img src="/drawer/2006/12/almacen-05_entrada.miniatura.png" alt="Almacen 0.5 - Ventana entrada de producto" /></a></li>
+    <li><a href="/drawer/2006/12/almacen-05_nuevo.png"><img src="/drawer/2006/12/almacen-05_nuevo.miniatura.png" alt="Almacen 0.5 - Ventana nuevo producto" /></a></li>
+  </ul>
+</div>
+
 Ejem, quizá falte maquear un poco más las cosas. El pedazo de hueco blanco de la ventana principal es un textarea que puse para rellenar, más adelante quiero poner una lista de albaranes en su lugar.
