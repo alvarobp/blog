@@ -158,6 +158,8 @@ img {
 
 #paginator {
   padding: 0 10px;
+  overflow: hidden;
+  margin: 30px 0;
 }
 
 #paginator .left {
