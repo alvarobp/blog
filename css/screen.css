@@ -45,7 +45,7 @@ img {
 .left-column {
   float: left;
   margin: 0;
-  padding: 0 0 20px 25px;
+  padding: 10px 0 20px 25px;
   width: 600px;
 }
 
@@ -133,10 +133,6 @@ img {
 #toggle-about {
   font-size: x-small;
   text-align: right;
-}
-
-#posts {
-  padding-top: 10px;
 }
 
 .post {
