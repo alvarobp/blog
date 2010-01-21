@@ -148,10 +148,6 @@ img {
   font-weight: normal;
 }
 
-.post div.body {
-  text-align: justify;
-}
-
 #paginator {
   padding: 0 10px;
   overflow: hidden;
