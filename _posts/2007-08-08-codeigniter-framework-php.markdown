@@ -67,4 +67,4 @@ El fichero de la vista correspondiente (<tt>views/blog_view.php</tt>):
 &lt;/html&gt;
 </pre>
 
-<strike>Dejo aquí la URL del ejemplo: <a href="http://testing.inbatu.com/bblog/index.php/blog">http://testing.inbatu.com/bblog/index.php/blog</a></strike>
+<p class="strike">Dejo aquí la URL del ejemplo: <a href="http://testing.inbatu.com/bblog/index.php/blog">http://testing.inbatu.com/bblog/index.php/blog</a></p>

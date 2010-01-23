@@ -21,7 +21,10 @@
             {{ content }}
           </div>
         </div>
-        <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/batusstack/embed.js"></script><noscript><a href="http://disqus.com/forums/batusstack/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript" src="http://disqus.com/forums/batusstack/embed.js"></script>
+        <noscript><p><a href="http://disqus.com/forums/batusstack/?url=ref">View the discussion thread.</a></p></noscript>
+        <p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
         {% if page.previous || page.next %}
         <div id="paginator">
           {% if page.previous %}<div class="left"><a href="{{ page.previous.url }}">&laquo; {{ page.previous.title | truncate: 30 }}</a></div>{% endif %}
@@ -34,7 +37,7 @@
         {% include aboutme.html %}
         {% include partigi_widget.html %}
         {% include twitter_widget.html %}
-      </div>
+      </div><!-- #sidebar -->
       {% include footer.html %}
     </div> <!-- #wrapper -->
     {% include common_javascript.html %}

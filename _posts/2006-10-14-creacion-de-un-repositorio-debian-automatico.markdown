@@ -41,8 +41,7 @@ Architecture: &lt;Arquitectura de tu procesador o &quot;source&quot;
                         para los directorios de fuentes&gt;
 </pre>
 <h3>Ficheros de configuración</h3>
-Necesitamos dos ficheros de configuración:
-<tt> </tt>
+<p>Necesitamos dos ficheros de configuración:</p>
 <ul>
 	<li><tt>apt-sarge-release.conf</tt></li>
 	<li><tt>apt-ftparchive.conf</tt></li>
