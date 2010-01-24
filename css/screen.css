@@ -43,6 +43,12 @@ img {
   border: none;
 }
 
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 .left-column {
   float: left;
   margin: 0;
