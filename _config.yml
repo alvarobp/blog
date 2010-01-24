@@ -3,3 +3,20 @@ paginate: 5
 markdown: rdiscount
 host: blog.inbatu.com
 author_email: alvarobp@gmail.com
+
+javascripts:
+  - jquery.js
+  - jquery.lightbox.js
+  - syntax_highlighter/shCore.js
+  - syntax_highlighter/shBrushCpp.js
+  - syntax_highlighter/shBrushCSharp.js
+  - syntax_highlighter/shBrushCss.js
+  - syntax_highlighter/shBrushDelphi.js
+  - syntax_highlighter/shBrushJava.js
+  - syntax_highlighter/shBrushJScript.js
+  - syntax_highlighter/shBrushPhp.js
+  - syntax_highlighter/shBrushPython.js
+  - syntax_highlighter/shBrushRuby.js
+  - syntax_highlighter/shBrushSql.js
+  - syntax_highlighter/shBrushVb.js
+  - syntax_highlighter/shBrushXml.js
