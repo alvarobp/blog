@@ -49,6 +49,15 @@ fieldset {
   border: none;
 }
 
+pre {
+  overflow: auto;
+  padding: 10px;
+  border: 2px solid #A0A0A0;
+  background: #000;
+  color: #fff;
+  font-size: 1.2em;
+}
+
 .left-column {
   float: left;
   margin: 0;
