@@ -44,7 +44,7 @@
   });
   
   //<![CDATA[
-  $(function() {
+  (function() {
     var links = document.getElementsByTagName('a');
     var query = '?';
     for(var i = 0; i < links.length; i++) {
@@ -54,7 +54,7 @@
     }
     document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/batusstack/get_num_replies.js' + query + '"></' + 'scr\
 ipt>');
-  });
+  })();
   //]]>
 
 </script>
