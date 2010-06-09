@@ -32,7 +32,7 @@ I like to run my applications using the Ruby Enterprise Edition interpreter, the
 
 I also set it as the default interpreter:
 
-    rvm ree --default
+    rvm ree --default --passenger
 
 You may be wondering what we need the MRI interpreter for, well, I basically installed it because the REE installation script is written in Ruby.
 
@@ -45,7 +45,7 @@ In a nutshell:
     
 Edit your `/etc/apache2/apache2.conf` (or whatever file inside which you load the passenger module) and set:
 
-    PassengerRuby /home/sudoer/.rvm/bin/passenger_ruby
+    PassengerRuby /home/user/.rvm/bin/passenger_ruby
 
 ### Configuring an application
 
@@ -72,8 +72,8 @@ Now, those environment values are set through the apache `mod_env` module:
   
       DocumentRoot /var/www/wadusapp/current/public
   
-      SetEnv GEM_HOME /home/sudoer/.rvm/gems/ree-1.8.7-2010.01@wadusappset
-      SetEnv GEM_PATH /home/sudoer/.rvm/gems/ree-1.8.7-2010.01@wadusappset:/home/sudoer/.rvm/gems/ree-1.8.7-2010.01:/home/sudoer/.rvm/gems/ree-1.8.7-2010.01@global
+      SetEnv GEM_HOME /home/user/.rvm/gems/ree-1.8.7-2010.01@wadusappset
+      SetEnv GEM_PATH /home/user/.rvm/gems/ree-1.8.7-2010.01@wadusappset:/home/user/.rvm/gems/ree-1.8.7-2010.01:/home/user/.rvm/gems/ree-1.8.7-2010.01@global
     </VirtualHost>
 
 I did not find a better way of setting the variables so I went with copy & paste.
