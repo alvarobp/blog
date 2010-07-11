@@ -9,7 +9,7 @@ task :deploy do
   username = ask("Username: ") { |q| q.echo = true }
   password = ask("Password: ") { |q| q.echo = false }
   
-  Net::SSH.start('inbatu.com', username, :password => password) do |ssh|
+  Net::SSH.start('blog.inbatu.com', username, :password => password) do |ssh|
     commands = <<EOF
 cd /var/www/blog/cached-copy
 git checkout #{branch}
