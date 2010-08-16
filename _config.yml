@@ -6,6 +6,7 @@ author_email: alvarobp@gmail.com
 
 javascripts:
   - jquery.js
+  - jquery.example.js
   - jquery.lightbox.js
   - syntax_highlighter/shCore.js
   - syntax_highlighter/shBrushCpp.js

@@ -1,6 +1,8 @@
 Dir["#{File.dirname(__FILE__)}/tasks/**/*.rake"].sort.each { |ext| load ext }
 
 task :compile_js do
+  require 'yaml'
+  
   config = YAML.load_file("#{File.dirname(__FILE__)}/_config.yml")
   javascript_files = config["javascripts"].map{|fn| "--js #{fn} "}.join
   
