@@ -1,8 +1,8 @@
 permalink: pretty
 paginate: 5
 markdown: rdiscount
-host: blog.inbatu.com
-author_email: alvarobp@gmail.com
+host: blog.alvarobp.com
+author_email: alvarobp@alvarobp.com
 
 javascripts:
   - jquery.js
