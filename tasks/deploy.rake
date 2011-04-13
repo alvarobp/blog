@@ -1,4 +1,4 @@
-desc "deploy site to blog.inbatu.com"
+desc "deploy site to blog.alvarobp.com"
 task :deploy do
   require 'rubygems'
   require 'highline/import'
@@ -9,7 +9,7 @@ task :deploy do
   username = ask("Username: ") { |q| q.echo = true }
   password = ask("Password: ") { |q| q.echo = false }
   
-  Net::SSH.start('blog.inbatu.com', username, :password => password) do |ssh|
+  Net::SSH.start('blog.alvarobp.com', username, :password => password) do |ssh|
     commands = <<EOF
 cd /var/www/blog/
 if [ ! -d cached-copy ]; then git clone git://github.com/alvarobp/blog.inbatu.com.git cached-copy; cd cached-copy;#{"git checkout -b #{branch} --track origin/#{branch} ;" unless branch == "master"} cd .. ; fi
