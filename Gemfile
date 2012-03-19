@@ -1,9 +1,9 @@
-source "http://rubygems.org"
+source :rubygems
 
 gem "jekyll"
 gem "rdiscount"
 
 group :development do
   gem "highline"
-  gem "net-ssh"
+  gem "net-scp"
 end
