@@ -4,6 +4,15 @@ markdown: rdiscount
 host: blog.alvarobp.com
 author_email: alvarobp@alvarobp.com
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.markdown
+  - TODO
+  - tmp
+  - tasks
+
 javascripts:
   - jquery.js
   - jquery.example.js
