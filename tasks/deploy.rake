@@ -11,7 +11,7 @@ task :deploy do
   tmp_site_path = File.join(tmp_path, 'site')
   package_name = "blog-site.tar.gz"
   package_path = File.join(tmp_path, package_name)
-  deploy_path = '/var/www/blog'
+  deploy_path = ENV['DEPLOY_PATH'] || '/var/www/blog'
   release_time = Time.now.strftime('%Y%m%d%H%M%S')
   release_path = File.join(deploy_path, release_time)
 
@@ -21,10 +21,17 @@ task :deploy do
   system("cd #{tmp_site_path}; tar cvfz #{package_path} * &> /dev/null")
   FileUtils.rm_r(tmp_site_path)
 
-  username = ask("Username: ") { |q| q.echo = true }
-  password = ask("Password: ") { |q| q.echo = false }
+  username = ENV['REMOTE_USER'] or ask("Remote user: ") { |q| q.echo = true }
+  ssh_options = {}
 
-  Net::SSH.start(host, username, :password => password) do |ssh|
+  if key_path = ENV['SSH_KEY']
+    ssh_options.merge :key_data => File.read(key_path)
+  else
+    password = ask("Remote password: ") { |q| q.echo = false }
+    ssh_options.merge :password => password
+  end
+
+  Net::SSH.start(host, username, ssh_options) do |ssh|
     ssh.exec "mkdir -p #{release_path}"
 
     scp = Net::SCP.new(ssh)
