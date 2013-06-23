@@ -1,7 +1,7 @@
 --- 
 wordpress_id: 8
 layout: post
-title: "Intent\xC3\xA1ndolo con Gtkmm"
+title: "Intentándolo con Gtkmm"
 wordpress_url: http://localhost/blog/?p=8
 ---
 Ayer tarde decidí probar, ahora que tengo unas nociones un poco más amplias de C++ y de la programación en general (y orientada a objetos en particula), el uso de la librería Gtkmm. Por si alguien no sabe lo que es, es una interfaz de C++ para GTK+.

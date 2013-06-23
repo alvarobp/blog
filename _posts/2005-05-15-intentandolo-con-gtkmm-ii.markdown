@@ -1,7 +1,7 @@
 --- 
 wordpress_id: 9
 layout: post
-title: "Intent\xC3\xA1ndolo con Gtkmm II"
+title: "Intentándolo con Gtkmm II"
 wordpress_url: http://localhost/blog/?p=9
 ---
 Bueno, pues me puse con el tutorial, y empezé a probar más cosillas en el HolaMundo. Y nada, después de unas pocas (como unas 60 quizá) líneas de código más, tengo lo que ya no es un HolaMundo, sino lo que le llamo Intentando Gtkmm (voy por la version 0.3), jajaja, si me entra risa.

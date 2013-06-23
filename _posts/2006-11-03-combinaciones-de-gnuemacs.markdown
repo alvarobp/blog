@@ -1,7 +1,7 @@
 --- 
 wordpress_id: 25
 layout: post
-title: "GNU/Emacs - Comandos b\xC3\xA1sicos I"
+title: "GNU/Emacs - Comandos básicos I"
 wordpress_url: http://batuz.dyndns.org/blog/?p=25
 ---
 Los comandos que pongo aquí son de la forma <tt>C-x</tt>, <tt>M-x</tt>, esto quiere decir, en el caso de <tt>C-x</tt> que debemos pulsar la tecla <tt>CONTROL</tt> y a la vez la tecla <tt>x</tt>. En el caso de <tt>M-x</tt> debemos pulsar la tecla <tt>META</tt> (<tt>ALT</tt> ó <tt>ESC</tt>) y a la vez la tecla <tt>x</tt>. Bueno, una vez aclarado esto paso a listar un resumen de los comandos básicos. 

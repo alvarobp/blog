@@ -1,7 +1,7 @@
 --- 
 wordpress_id: 24
 layout: post
-title: "Creaci\xC3\xB3n de un repositorio Debian autom\xC3\xA1tico"
+title: "Creación de un repositorio Debian automático"
 wordpress_url: http://localhost/blog/?p=24
 ---
 En este post voy a explicar cómo crear un repositorio para alojar nuestros propios paquetes .deb . Para ello necesitaremos tener instalado el paquete <tt>apt-utils</tt> que seguramente ya lo estará.

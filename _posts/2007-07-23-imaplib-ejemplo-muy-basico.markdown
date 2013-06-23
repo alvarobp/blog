@@ -1,7 +1,7 @@
 --- 
 wordpress_id: 69
 layout: post
-title: "imaplib - Ejemplo muy b\xC3\xA1sico"
+title: "imaplib - Ejemplo muy básico"
 wordpress_url: http://blog.inbatu.com/2007/07/23/imaplib-ejemplo-muy-basico/
 ---
 Estoy de vuelta con python, que desde antes de exámenes no había tocado nada. Y como estoy llegando al final del Learning Python, donde he visto que existe la librería poplib, me ha dado por probar <code>imaplib</code>.

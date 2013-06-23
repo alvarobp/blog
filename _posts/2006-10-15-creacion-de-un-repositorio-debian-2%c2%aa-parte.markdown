@@ -1,7 +1,7 @@
 --- 
 wordpress_id: 27
 layout: post
-title: "Creaci\xC3\xB3n de un repositorio Debian (2\xC2\xAA parte)"
+title: "Creación de un repositorio Debian (2ª parte)"
 wordpress_url: http://batuz.dyndns.org/blog/?p=27
 ---
 Conforme terminamos lo explicado en la primera parte nuestro repositorio no utiliza firmas. Para ello deberemos firmar los <tt>Release</tt> con gpg, para lo cual necesitamos habernos creado una clave.

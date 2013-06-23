@@ -1,7 +1,7 @@
 --- 
 wordpress_id: 19
 layout: post
-title: "Creaci\xC3\xB3n de paquetes"
+title: "Creación de paquetes"
 wordpress_url: http://localhost/blog/?p=19
 ---
 Hoy he descubierto un programa bastante interesante para generar paquetes para las distribuciones más usadas, entre ellas como no Debian. El programa en cuestión es Checkinstall. Nos permite generarnos debs a partir del código fuente  de forma tan fácil como:
