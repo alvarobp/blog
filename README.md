@@ -19,5 +19,5 @@ docker build . -t blog
 - Boot development server:
 
 ```shell
-docker run --rm -p 4000:4000 -v $(pwd):/app -it blog jekyll serve
+docker run --rm -p 4000:4000 -v $(pwd):/app blog jekyll serve
 ```
