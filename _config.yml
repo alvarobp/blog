@@ -1,7 +1,6 @@
 permalink: pretty
 paginate: 5
 markdown: rdiscount
-host: blog.alvarobp.com
 author_email: alvarobp@alvarobp.com
 
 exclude:

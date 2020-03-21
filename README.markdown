@@ -1,1 +1,0 @@
-This is an implementation of my personal blog using [Jekyll](http://github.com/mojombo/jekyll)
