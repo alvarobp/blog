@@ -1,13 +1,13 @@
 permalink: pretty
 paginate: 5
-markdown: rdiscount
+markdown: kramdown
 author_email: alvarobp@alvarobp.com
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - Rakefile
-  - README.markdown
+  - README.md
   - TODO
   - tmp
   - tasks
